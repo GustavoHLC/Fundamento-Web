@@ -1,0 +1,62 @@
+/*Estilos da página index.html*/
+.texto {
+    padding: 15px;
+    font-size: 20px;
+}
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    font-size: 20px;
+    display: inline;
+    padding: 15px;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu li a:hover {
+    color: grey;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.wh-400 {
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+
+.tm-social {
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+/*Estilos da página contato.html*/
+.enderecoMod {
+    font-size: 20px;
+}
+
+.pd-20 {
+    padding: 20px;
+}
