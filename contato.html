@@ -22,14 +22,18 @@
         <div class="pd-20">
             <h2>Mande uma mensagem:</h2>
             <form>
-                <label  class=" form form-spam" for="nome">nome</label>
-                <input  class=" form form-spam" type="text" id="nome" onkeyup="validaNome()">
+                <div class="containerAlt">
+                <label  class="form form-spam" for="nome">nome</label id="txtNome">
                 <div id="txtNome"></div>
-                <label  class=" form form-spam" for="email">E-mail</label>
-                <input  class=" form form-spam" type="email" id="email" onkeyup='validaEmail()'>
+                </div>
+                <input  class="form" type="text" id="nome" onkeyup="validaNome()">
+                <div class="containerAlt">
+                <label  class="form form-spam" for="email">E-mail</label>
                 <div id="txtEmail"></div>
-                <label  class=" form form-spam" for="assunto">Assunto</label>
-                <textarea  class=" form form-spam" name="assunto" id="assunto" cols="50" rows="17"></textarea>
+                </div>
+                <input  class="form" type="email" id="email" onkeyup='validaEmail()'>
+                <label  class="form form-spam" for="assunto">Assunto</label>
+                <textarea  class="form form-spam" name="assunto" id="assunto" cols="50" rows="19"></textarea>
                 <button>Enviar</button>
             </form>
         </div>

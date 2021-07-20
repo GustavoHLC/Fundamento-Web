@@ -1,4 +1,8 @@
 /*Estilos da página index.html*/
+body{
+    background-color: rgb(72, 80, 128)
+}
+
 .texto {
     padding: 15px;
     font-size: 20px;
@@ -69,4 +73,9 @@
 .form-spam {
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+.containerAlt {
+    align-items: center;
+    display: flex;
 }
