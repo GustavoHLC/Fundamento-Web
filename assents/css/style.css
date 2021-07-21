@@ -29,11 +29,11 @@ body{
 }
 .menu li a {
     text-decoration: none;
-    color: black;
+    color: rgb(81, 22, 136);
 }
 
 .menu li a:hover {
-    color: grey;
+    color: rgb(138, 37, 179);
 }
 
 .br-50 {
@@ -56,6 +56,13 @@ body{
     margin-bottom: 50px;
 }
 
+.mt-45 {
+    margin-top: 45px;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
 /*Estilos da página contato.html*/
 .enderecoMod {
     font-size: 20px;
